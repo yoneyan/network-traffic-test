@@ -1,0 +1,980 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="CONTENT-TYPE" content="text/html">
+<meta http-equiv="CONTENT-STYLE-TYPE" content="text/css">
+<link rel="STYLESHEET" type="text/css" href="./style.css">
+<title>RFC2544_20221113_034403</title>
+</head>
+
+<body>
+<div><img src="logo.gif" alt="logo.gif"></div>
+<h1><a name="Top"></a>Report - RFC2544 Automatic Test</h1>
+
+<table>
+<tr>
+<td class="table4">MP1590B Network Performance Tester</td>
+</tr>
+<tr>
+<td class="table4">Version 9.06.23</td>
+</tr>
+<tr>
+<td class="table4">2022/11/13 03:44:03</td>
+</tr>
+</table>
+<table><tr>
+<td class="menubtn"><a href="#PortList" title="Port List">Port List</a></td>
+<td class="menubtn"><a href="#PortSet" title="Port Settings">Port Settings</a></td>
+<td class="menubtn"><a href="#Throughput" title="Throughput">Throughput</a></td>
+<td class="menubtn"><a href="#Latency" title="Latency">Latency</a></td>
+<td class="menubtn"><a href="#FrameLossRate" title="Frame Loss Rate">Frame Loss Rate</a></td>
+</tr></table>
+
+<h2><a name="PortList"></a>Port List</h2>
+<div><a href="#Top" title="Top">Top</a></div>
+<ul>
+  <li>Unit1:3:1: MU120122A Gigabit Ethernet
+  <li>Unit1:3:4: MU120122A Gigabit Ethernet
+</ul>
+
+<h2><a name="PortSet"></a>Port Settings</h2>
+<div><a href="#Top" title="Top">Top</a></div>
+<table>
+<tr><th class=setct>Unit1:3:1</th><th class=setct>Unit1:3:4</th></tr>
+
+<tr>
+
+<td class=set>
+<ul>
+<li>Ownership: Owner
+<li>Mode: Normal
+<li>MAC Address: 00-00-00-00-00-01
+<li>IPv4: 
+  <ul>
+  <li>This Port: 
+    <ul>
+    <li>IPv4 Address: 192.168.0.100
+    <li>Netmask: 255.255.255.0
+    <li>Gateway: 192.168.0.1
+    </ul>
+  <li>ARP Reply: 
+    Reply to this port ARP request
+  <li>ICMP Echo (PING) Reply: 
+    Reply to this port PING request
+  </ul>
+<li>VLAN: 
+  <ul>
+  <li>Enabled: OFF
+  <li>This Port VLAN: 
+    <ul>
+    <li>No., TPID (hex), Priority, VID (dec)
+    <li>1, 8100, 0, 1
+    <li>2
+    <li>3
+    <li>4
+    <li>5
+    <li>6
+    <li>7
+    <li>8
+    <li>9
+    <li>10
+    </ul>
+  <li>CFI: Reset
+  </ul>
+<li>Protocols: 
+  <ul>
+  <li>Protocol Filter:
+    <ul>
+    <li>IGMP: OFF
+    <li>BGP4: OFF
+    </ul>
+  </ul>
+<li>Mapping: Framed
+<li>MII Properties: 
+  <ul>
+  <li>Auto Negotiation: 
+    <ul>
+    <li>On: ON
+    <li>Timeout Enable: OFF
+    </ul>
+  <li>Loopback: OFF
+  <li>Flow Control Receive: 
+    <ul>
+    <li>Multicast Pause Address: OFF
+    <li>Directed Address: OFF
+    </ul>
+  </ul>
+<li>Maximum Frame Size: 1518
+<li>Preamble: OFF
+</ul>
+</td>
+
+<td class=set>
+<ul>
+<li>Ownership: Owner
+<li>Mode: Normal
+<li>MAC Address: 00-00-00-00-00-00
+<li>IPv4: 
+  <ul>
+  <li>This Port: 
+    <ul>
+    <li>IPv4 Address: 192.168.1.2
+    <li>Netmask: 255.255.255.0
+    <li>Gateway: 192.168.1.1
+    </ul>
+  <li>ARP Reply: 
+    Reply to this port ARP request
+  <li>ICMP Echo (PING) Reply: 
+    Reply to this port PING request
+  </ul>
+<li>VLAN: 
+  <ul>
+  <li>Enabled: OFF
+  <li>This Port VLAN: 
+    <ul>
+    <li>No., TPID (hex), Priority, VID (dec)
+    <li>1, 8100, 0, 1
+    <li>2
+    <li>3
+    <li>4
+    <li>5
+    <li>6
+    <li>7
+    <li>8
+    <li>9
+    <li>10
+    </ul>
+  <li>CFI: Reset
+  </ul>
+<li>Protocols: 
+  <ul>
+  <li>Protocol Filter:
+    <ul>
+    <li>IGMP: OFF
+    <li>BGP4: OFF
+    </ul>
+  </ul>
+<li>Mapping: Framed
+<li>MII Properties: 
+  <ul>
+  <li>Auto Negotiation: 
+    ON
+    <ul>
+    <li>Capabilities To Be Advertised: 
+      <ul>
+      <li>10M bps Half Duplex: ON
+      <li>10M bps Full Duplex: ON
+      <li>100M bps Half Duplex: ON
+      <li>100M bps Full Duplex: ON
+      <li>1000M bps Half Duplex: ON
+      <li>1000M bps Full Duplex: ON
+      </ul>
+    <li>Timing: Auto
+    <li>Auto MDI/MDI-X: ON
+    </ul>
+  <li>Loopback (1000M Full only): OFF
+  <li>Flow Control Receive (Full Duplex only): 
+    <ul>
+    <li>Multicast Pause Address: OFF
+    <li>Directed Address: OFF
+    </ul>
+  </ul>
+<li>Maximum Frame Size: 1518
+<li>Preamble: OFF
+</ul>
+</td>
+</tr>
+</table>
+
+<h2><a name="Throughput"></a>Throughput</h2>
+<div><a href="#Top" title="Top">Top</a></div>
+
+<h3>Test Settings</h3>
+
+<dl>
+<dd>
+[Test Method]
+</dd>
+<dd>
+Traffic Distribution: One to One
+</dd>
+<dd>
+Traffic Orientation: Unidirectional
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Ports]
+</dd>
+<dd>
+VLAN Tag A: OFF
+</dd>
+<dd>
+VLAN Tag B: OFF
+</dd>
+<dd>
+VLAN ID: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Test Frame]
+</dd>
+<dd>
+Frame Sizes to Use: RFC2544 Frame Sizes: 64, 128, 256, 512, 1024, 1280, 1518 byte
+</dd>
+<dd>
+Protocol: IP
+</dd>
+<dd>
+Version of IP: IPv4
+</dd>
+<dd>
+Device Type: Store and Forward
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Learning Frame (for Ethernet Modules)]
+</dd>
+<dd>
+Learning Mode: Once
+</dd>
+<dd>
+Retries: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Throughput]
+</dd>
+<dd>
+Duration: 60s
+</dd>
+<dd>
+Number of Trials: 1
+</dd>
+<dd>
+Burst Size: 1
+</dd>
+<dd>
+Initial Rate: 100.00%
+</dd>
+<dd>
+Minimum Rate: 0.10%
+</dd>
+<dd>
+Maximum Rate: 100.00%
+</dd>
+<dd>
+Resolution: 0.50%
+</dd>
+<dd>
+Loss Tolerance: 0.0000%
+</dd>
+</dl>
+
+<h3>Results (Table)</h3>
+<table>
+<tr>
+<td class="table4">Frame/s</td>
+</tr>
+<tr>
+<th class=rsct>Frame Size</th>
+<th class=rsct>Average</th>
+<th class=rsct>1</th>
+</tr>
+<tr>
+<th class=rst>64</th>
+<td class=rs>386,904</td>
+<td class=rs>386,904</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<td class=rs>363,175</td>
+<td class=rs>363,175</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<td class=rs>389,492</td>
+<td class=rs>389,492</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<td class=rs>233,787</td>
+<td class=rs>233,787</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<td class=rs>119,731</td>
+<td class=rs>119,731</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<td class=rs>96,153</td>
+<td class=rs>96,153</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<td class=rs>81,274</td>
+<td class=rs>81,274</td>
+</tr>
+</table>
+
+<h3>Results (Chart)</h3>
+<div><img src="RFC2544_20221113_034403_Throughput.jpg" alt="RFC2544_20221113_034403_Throughput.jpg"></div>
+
+<h2><a name="Latency"></a>Latency</h2>
+<div><a href="#Top" title="Top">Top</a></div>
+
+<h3>Test Settings</h3>
+<dl>
+<dd>
+[Test Method]
+</dd>
+<dd>
+Traffic Distribution: One to One
+</dd>
+<dd>
+Traffic Orientation: Unidirectional
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Ports]
+</dd>
+<dd>
+VLAN Tag A: OFF
+</dd>
+<dd>
+VLAN Tag B: OFF
+</dd>
+<dd>
+VLAN ID: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Test Frame]
+</dd>
+<dd>
+Frame Sizes to Use: RFC2544 Frame Sizes: 64, 128, 256, 512, 1024, 1280, 1518 byte
+</dd>
+<dd>
+Protocol: IP
+</dd>
+<dd>
+Version of IP: IPv4
+</dd>
+<dd>
+Device Type: Store and Forward
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Learning Frame (for Ethernet Modules)]
+</dd>
+<dd>
+Learning Mode: Once
+</dd>
+<dd>
+Retries: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Latency]
+</dd>
+<dd>
+Duration: 120s
+</dd>
+<dd>
+Number of Trials: 1
+</dd>
+<dd>
+Burst Size: 1
+</dd>
+<dd>
+Frame Rate: Result of Throughput Rate
+</dd>
+</dl>
+
+<h3>Results (Table)</h3>
+
+<table>
+<tr>
+<td class="table4">Latency (s)</td>
+</tr>
+<tr>
+<th class=rsct>Frame Size</th>
+<th class=rsct>Average</th>
+<th class=rsct>1</th>
+</tr>
+<tr>
+<th class=rst>64</th>
+<td class=rs>0.000047346</td>
+<td class=rs>0.000047346</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<td class=rs>0.000039414</td>
+<td class=rs>0.000039414</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<td class=rs>0.000050614</td>
+<td class=rs>0.000050614</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<td class=rs>0.000661482</td>
+<td class=rs>0.000661482</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<td class=rs>0.000435750</td>
+<td class=rs>0.000435750</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<td class=rs>0.000490918</td>
+<td class=rs>0.000490918</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<td class=rs>0.000501682</td>
+<td class=rs>0.000501682</td>
+</tr>
+</table>
+
+<h3>Results (Chart)</h3>
+<div><img src="RFC2544_20221113_034403_Latency.jpg" alt="RFC2544_20221113_034403_Latency.jpg"></div>
+
+<h2><a name="FrameLossRate"></a>Frame Loss Rate</h2>
+<div><a href="#Top" title="Top">Top</a></div>
+
+<h3>Test Settings</h3>
+<dl>
+<dd>
+[Test Method]
+</dd>
+<dd>
+Traffic Distribution: One to One
+</dd>
+<dd>
+Traffic Orientation: Unidirectional
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Ports]
+</dd>
+<dd>
+VLAN Tag A: OFF
+</dd>
+<dd>
+VLAN Tag B: OFF
+</dd>
+<dd>
+VLAN ID: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Test Frame]
+</dd>
+<dd>
+Frame Sizes to Use: RFC2544 Frame Sizes: 64, 128, 256, 512, 1024, 1280, 1518 byte
+</dd>
+<dd>
+Protocol: IP
+</dd>
+<dd>
+Version of IP: IPv4
+</dd>
+<dd>
+Device Type: Store and Forward
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Learning Frame (for Ethernet Modules)]
+</dd>
+<dd>
+Learning Mode: Once
+</dd>
+<dd>
+Retries: 1
+</dd>
+<dd>
+
+</dd>
+<dd>
+[Frame Loss Rate]
+</dd>
+<dd>
+Duration: 60s
+</dd>
+<dd>
+Number of Trials: 1
+</dd>
+<dd>
+Burst Size: 1
+</dd>
+<dd>
+Initial Rate: 100%
+</dd>
+<dd>
+Step Rate: 10%
+</dd>
+</dl>
+
+<h3>Results (Table)</h3>
+
+<table>
+<tr>
+<td class="table4">Frame Loss Rate (%)</td>
+</tr>
+<tr>
+<th class=rsct>Frame Size</th>
+<th class=rsct>Frame Rate</th>
+<th class=rsct>Average</th>
+<th class=rsct>1</th>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>100.00%</th>
+<td class=rs>73.60</td>
+<td class=rs>73.60</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>90.00%</th>
+<td class=rs>70.63</td>
+<td class=rs>70.63</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>80.00%</th>
+<td class=rs>66.99</td>
+<td class=rs>66.99</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>70.00%</th>
+<td class=rs>62.49</td>
+<td class=rs>62.49</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>60.00%</th>
+<td class=rs>55.97</td>
+<td class=rs>55.97</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>50.00%</th>
+<td class=rs>47.02</td>
+<td class=rs>47.02</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>40.00%</th>
+<td class=rs>33.94</td>
+<td class=rs>33.94</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>30.00%</th>
+<td class=rs>11.99</td>
+<td class=rs>11.99</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>20.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>64</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>100.00%</th>
+<td class=rs>53.46</td>
+<td class=rs>53.46</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>90.00%</th>
+<td class=rs>48.28</td>
+<td class=rs>48.28</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>80.00%</th>
+<td class=rs>41.80</td>
+<td class=rs>41.80</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>70.00%</th>
+<td class=rs>33.65</td>
+<td class=rs>33.65</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>60.00%</th>
+<td class=rs>22.50</td>
+<td class=rs>22.50</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>50.00%</th>
+<td class=rs>6.87</td>
+<td class=rs>6.87</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>40.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>128</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>100.00%</th>
+<td class=rs>13.18</td>
+<td class=rs>13.18</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>90.00%</th>
+<td class=rs>3.74</td>
+<td class=rs>3.74</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>80.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>70.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>60.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>50.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>40.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>256</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>100.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>90.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>80.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>70.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>60.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>50.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>40.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>512</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>100.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>90.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>80.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>70.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>60.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>50.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>40.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,024</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>100.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>90.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>80.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>70.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>60.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>50.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>40.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,280</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>100.00%</th>
+<td class=rs>0.00</td>
+<td class=rs>0.00</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>90.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>80.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>70.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>60.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>50.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>40.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>30.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>20.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+<tr>
+<th class=rst>1,518</th>
+<th class=rst>10.00%</th>
+<td class=rs>-</td>
+<td class=rs>-</td>
+</tr>
+</table>
+
+<h3>Results (Chart)</h3>
+<div><img src="RFC2544_20221113_034403_FrameLossRate.jpg" alt="RFC2544_20221113_034403_FrameLossRate.jpg"></div>
+</body>
+</html>

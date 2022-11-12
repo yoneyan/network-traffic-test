@@ -1,0 +1,1678 @@
+==== General Setting
+Traffic Distribution : One to one
+Traffic Orientation  : Unidirectional
+Selected Ports       :
+   Port(GroupA) ----> Port(GroupB)
+   No.001 Unit1:3:1   No.002 Unit1:3:4
+
+Frame Size           : 64,128,256,512,1024,1280,1518 byte
+Protocol             : IPv4
+Device Type          : Store and forward
+VLAN Tag
+   GroupA            : OFF
+   GroupB            : OFF
+
+
+==== Throughput Test Start (at 00:21:02 Nov 13, 2022)
+Duration             : 60 s
+Number of Trials     : 1
+Burst Size           : 1
+Initial Rate         : 100.00 %
+Minimum Rate         : 0.50 % (User setting: 0.10 %)
+Maximum Rate         : 100.00 %
+Resolution           : 0.50 %
+Loss Tolerance       : 0.0000 %
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Address Learning:---------------
+Learning Mode        : Once
+Learning Retries     : 1
+Address Learning ..Finished
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  89285715
+   Total Frames   =  89285715
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23729026
+   Total Frames   =  23729026
+--------------------------------
+Binary Search Trial  : No.2
+Duration             : 60 s
+Tx Rate              : 0.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  446429
+   Total Frames   =  446429
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  446429
+   Total Frames   =  446429
+--------------------------------
+Binary Search Trial  : No.3
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  44642858
+   Total Frames   =  44642858
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23607301
+   Total Frames   =  23607301
+--------------------------------
+Binary Search Trial  : No.4
+Duration             : 60 s
+Tx Rate              : 25.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  22321429
+   Total Frames   =  22321429
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  22321429
+   Total Frames   =  22321429
+--------------------------------
+Binary Search Trial  : No.5
+Duration             : 60 s
+Tx Rate              : 37.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  33482143
+   Total Frames   =  33482143
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23786384
+   Total Frames   =  23786384
+--------------------------------
+Binary Search Trial  : No.6
+Duration             : 60 s
+Tx Rate              : 31.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  27678572
+   Total Frames   =  27678572
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23789008
+   Total Frames   =  23789008
+--------------------------------
+Binary Search Trial  : No.7
+Duration             : 60 s
+Tx Rate              : 28.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  25000000
+   Total Frames   =  25000000
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23788649
+   Total Frames   =  23788649
+--------------------------------
+Binary Search Trial  : No.8
+Duration             : 60 s
+Tx Rate              : 26.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23660715
+   Total Frames   =  23660715
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23626180
+   Total Frames   =  23626180
+--------------------------------
+Binary Search Trial  : No.9
+Duration             : 60 s
+Tx Rate              : 25.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  22767858
+   Total Frames   =  22767858
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  22767858
+   Total Frames   =  22767858
+--------------------------------
+Binary Search Trial  : No.10
+Duration             : 60 s
+Tx Rate              : 26.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23214286
+   Total Frames   =  23214286
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23214286
+   Total Frames   =  23214286
+--------------------------------
+********************************
+Result
+  Throughput Rate : 26.00 %
+  Total frame/s   : 386904 fps
+  Total bytes/s   : 24761856 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  50675676
+   Total Frames   =  50675676
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23766515
+   Total Frames   =  23766515
+--------------------------------
+Binary Search Trial  : No.2
+Duration             : 60 s
+Tx Rate              : 0.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  253379
+   Total Frames   =  253379
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  253379
+   Total Frames   =  253379
+--------------------------------
+Binary Search Trial  : No.3
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  25337838
+   Total Frames   =  25337838
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23627311
+   Total Frames   =  23627311
+--------------------------------
+Binary Search Trial  : No.4
+Duration             : 60 s
+Tx Rate              : 25.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  12668919
+   Total Frames   =  12668919
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  12668919
+   Total Frames   =  12668919
+--------------------------------
+Binary Search Trial  : No.5
+Duration             : 60 s
+Tx Rate              : 37.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  19003379
+   Total Frames   =  19003379
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  19003379
+   Total Frames   =  19003379
+--------------------------------
+Binary Search Trial  : No.6
+Duration             : 60 s
+Tx Rate              : 43.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  22043919
+   Total Frames   =  22043919
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  22032791
+   Total Frames   =  22032791
+--------------------------------
+Binary Search Trial  : No.7
+Duration             : 60 s
+Tx Rate              : 40.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  20523649
+   Total Frames   =  20523649
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  20523649
+   Total Frames   =  20523649
+--------------------------------
+Binary Search Trial  : No.8
+Duration             : 60 s
+Tx Rate              : 42.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  21283784
+   Total Frames   =  21283784
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  21283784
+   Total Frames   =  21283784
+--------------------------------
+Binary Search Trial  : No.9
+Duration             : 60 s
+Tx Rate              : 42.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  21537163
+   Total Frames   =  21537163
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  21537163
+   Total Frames   =  21537163
+--------------------------------
+Binary Search Trial  : No.10
+Duration             : 60 s
+Tx Rate              : 43.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  21790541
+   Total Frames   =  21790541
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  21790541
+   Total Frames   =  21790541
+--------------------------------
+********************************
+Result
+  Throughput Rate : 43.00 %
+  Total frame/s   : 363175 fps
+  Total bytes/s   : 46486400 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 256
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  27173913
+   Total Frames   =  27173913
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23733408
+   Total Frames   =  23733408
+--------------------------------
+Binary Search Trial  : No.2
+Duration             : 60 s
+Tx Rate              : 0.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  135870
+   Total Frames   =  135870
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  135870
+   Total Frames   =  135870
+--------------------------------
+Binary Search Trial  : No.3
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  13586957
+   Total Frames   =  13586957
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  13586957
+   Total Frames   =  13586957
+--------------------------------
+Binary Search Trial  : No.4
+Duration             : 60 s
+Tx Rate              : 75.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  20380435
+   Total Frames   =  20380435
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  20380435
+   Total Frames   =  20380435
+--------------------------------
+Binary Search Trial  : No.5
+Duration             : 60 s
+Tx Rate              : 87.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23777174
+   Total Frames   =  23777174
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23702823
+   Total Frames   =  23702823
+--------------------------------
+Binary Search Trial  : No.6
+Duration             : 60 s
+Tx Rate              : 81.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  22010870
+   Total Frames   =  22010870
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  22010870
+   Total Frames   =  22010870
+--------------------------------
+Binary Search Trial  : No.7
+Duration             : 60 s
+Tx Rate              : 84.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  22826087
+   Total Frames   =  22826087
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  22826087
+   Total Frames   =  22826087
+--------------------------------
+Binary Search Trial  : No.8
+Duration             : 60 s
+Tx Rate              : 85.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23233696
+   Total Frames   =  23233696
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23233696
+   Total Frames   =  23233696
+--------------------------------
+Binary Search Trial  : No.9
+Duration             : 60 s
+Tx Rate              : 86.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23505435
+   Total Frames   =  23505435
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23498883
+   Total Frames   =  23498883
+--------------------------------
+Binary Search Trial  : No.10
+Duration             : 60 s
+Tx Rate              : 86.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  23369566
+   Total Frames   =  23369566
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23369566
+   Total Frames   =  23369566
+--------------------------------
+********************************
+Result
+  Throughput Rate : 86.00 %
+  Total frame/s   : 389492 fps
+  Total bytes/s   : 99709952 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 512
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  14097745
+   Total Frames   =  14097745
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  14091754
+   Total Frames   =  14091754
+--------------------------------
+Binary Search Trial  : No.2
+Duration             : 60 s
+Tx Rate              : 0.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  70489
+   Total Frames   =  70489
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  70489
+   Total Frames   =  70489
+--------------------------------
+Binary Search Trial  : No.3
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  7048873
+   Total Frames   =  7048873
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  7048873
+   Total Frames   =  7048873
+--------------------------------
+Binary Search Trial  : No.4
+Duration             : 60 s
+Tx Rate              : 75.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  10573309
+   Total Frames   =  10573309
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  10573309
+   Total Frames   =  10573309
+--------------------------------
+Binary Search Trial  : No.5
+Duration             : 60 s
+Tx Rate              : 87.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  12335527
+   Total Frames   =  12335527
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  12335527
+   Total Frames   =  12335527
+--------------------------------
+Binary Search Trial  : No.6
+Duration             : 60 s
+Tx Rate              : 93.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  13181391
+   Total Frames   =  13181391
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  13181391
+   Total Frames   =  13181391
+--------------------------------
+Binary Search Trial  : No.7
+Duration             : 60 s
+Tx Rate              : 96.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  13604324
+   Total Frames   =  13604324
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  13604324
+   Total Frames   =  13604324
+--------------------------------
+Binary Search Trial  : No.8
+Duration             : 60 s
+Tx Rate              : 98.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  13815790
+   Total Frames   =  13815790
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  13815790
+   Total Frames   =  13815790
+--------------------------------
+Binary Search Trial  : No.9
+Duration             : 60 s
+Tx Rate              : 99.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  13956767
+   Total Frames   =  13956767
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  13956767
+   Total Frames   =  13956767
+--------------------------------
+Binary Search Trial  : No.10
+Duration             : 60 s
+Tx Rate              : 99.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  14027256
+   Total Frames   =  14027256
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  14027256
+   Total Frames   =  14027256
+--------------------------------
+********************************
+Result
+  Throughput Rate : 99.50 %
+  Total frame/s   : 233787 fps
+  Total bytes/s   : 119698944 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 1024
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  7183908
+   Total Frames   =  7183908
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  7183908
+   Total Frames   =  7183908
+--------------------------------
+********************************
+Result
+  Throughput Rate : 100.00 %
+  Total frame/s   : 119731 fps
+  Total bytes/s   : 122604544 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 1280
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  5769231
+   Total Frames   =  5769231
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  5769231
+   Total Frames   =  5769231
+--------------------------------
+********************************
+Result
+  Throughput Rate : 100.00 %
+  Total frame/s   : 96153 fps
+  Total bytes/s   : 123075840 byte/s
+********************************
+--------------------------------
+==== Frame Size      : 1518
+==== Trial No.       : 01 / 01
+Binary Search Trial  : No.1
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  4876463
+   Total Frames   =  4876463
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  4876463
+   Total Frames   =  4876463
+--------------------------------
+********************************
+Result
+  Throughput Rate : 100.00 %
+  Total frame/s   : 81274 fps
+  Total bytes/s   : 123373932 byte/s
+********************************
+==== Throughput Test End (at 01:18:08 Nov 13, 2022)
+==== Latency Test Start (at 01:18:08 Nov 13, 2022)
+Duration             : 120 s
+Number of Trials     : 1
+Burst Size           : 1
+Rate                 : Result of Throughput Rate
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Address Learning:---------------
+Learning Mode        : Once
+Learning Retries     : 1
+Address Learning ..Finished
+Duration             : 120 s
+Tx Rate              : 26.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+.........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000047346 s
+********************************
+Result
+   Maximum : 0.000047346 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000047346 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000047346 s
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 43.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000039414 s
+********************************
+Result
+   Maximum : 0.000039414 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000039414 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000039414 s
+********************************
+--------------------------------
+==== Frame Size      : 256
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 86.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000050614 s
+********************************
+Result
+   Maximum : 0.000050614 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000050614 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000050614 s
+********************************
+--------------------------------
+==== Frame Size      : 512
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 99.50 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000661482 s
+********************************
+Result
+   Maximum : 0.000661482 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000661482 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000661482 s
+********************************
+--------------------------------
+==== Frame Size      : 1024
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000435750 s
+********************************
+Result
+   Maximum : 0.000435750 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000435750 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000435750 s
+********************************
+--------------------------------
+==== Frame Size      : 1280
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000490918 s
+********************************
+Result
+   Maximum : 0.000490918 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000490918 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000490918 s
+********************************
+--------------------------------
+==== Frame Size      : 1518
+==== Trial No.       : 01 / 01
+Duration             : 120 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.................................................................................
+........................................
+Transmitted Test Frame END
+--------------------------------
+Measurement Value :
+   Unit1:3:4  =  0.000501682 s
+********************************
+Result
+   Maximum : 0.000501682 s  (Unit1:3:1 -> Unit1:3:4)
+   Minimum : 0.000501682 s  (Unit1:3:1 -> Unit1:3:4)
+   Average : 0.000501682 s
+********************************
+==== Latency Test End (at 01:34:57 Nov 13, 2022)
+==== Frame loss rate Test Start (at 01:34:57 Nov 13, 2022)
+Duration             : 60 s
+Number of Trials     : 1
+Burst Size           : 1
+Initial Rate         : 100 %
+Step Rate            : 10 %
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Address Learning:---------------
+Learning Mode        : Once
+Learning Retries     : 1
+Address Learning ..Finished
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  89285715
+   Total Frames   =  89285715
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23572012
+   Total Frames   =  23572012
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 89285715
+  Rx Total Frames  : 23572012
+  Total Frame Loss : 65713703
+
+  Frame Loss Rate  : 73.60 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 90.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  80357143
+   Total Frames   =  80357143
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23602592
+   Total Frames   =  23602592
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 80357143
+  Rx Total Frames  : 23602592
+  Total Frame Loss : 56754551
+
+  Frame Loss Rate  : 70.63 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 80.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  71428572
+   Total Frames   =  71428572
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23581755
+   Total Frames   =  23581755
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 71428572
+  Rx Total Frames  : 23581755
+  Total Frame Loss : 47846817
+
+  Frame Loss Rate  : 66.99 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 70.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  62500000
+   Total Frames   =  62500000
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23445845
+   Total Frames   =  23445845
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 62500000
+  Rx Total Frames  : 23445845
+  Total Frame Loss : 39054155
+
+  Frame Loss Rate  : 62.49 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 60.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  53571429
+   Total Frames   =  53571429
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23584901
+   Total Frames   =  23584901
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 53571429
+  Rx Total Frames  : 23584901
+  Total Frame Loss : 29986528
+
+  Frame Loss Rate  : 55.97 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  44642858
+   Total Frames   =  44642858
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23649579
+   Total Frames   =  23649579
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 44642858
+  Rx Total Frames  : 23649579
+  Total Frame Loss : 20993279
+
+  Frame Loss Rate  : 47.02 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 40.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  35714286
+   Total Frames   =  35714286
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23593380
+   Total Frames   =  23593380
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 35714286
+  Rx Total Frames  : 23593380
+  Total Frame Loss : 12120906
+
+  Frame Loss Rate  : 33.94 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 30.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  26785715
+   Total Frames   =  26785715
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23573691
+   Total Frames   =  23573691
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 26785715
+  Rx Total Frames  : 23573691
+  Total Frame Loss : 3212024
+
+  Frame Loss Rate  : 11.99 %
+********************************
+--------------------------------
+==== Frame Size      : 64
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 20.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  17857143
+   Total Frames   =  17857143
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  17857143
+   Total Frames   =  17857143
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 17857143
+  Rx Total Frames  : 17857143
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  50675676
+   Total Frames   =  50675676
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23583258
+   Total Frames   =  23583258
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 50675676
+  Rx Total Frames  : 23583258
+  Total Frame Loss : 27092418
+
+  Frame Loss Rate  : 53.46 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 90.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  45608109
+   Total Frames   =  45608109
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23589888
+   Total Frames   =  23589888
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 45608109
+  Rx Total Frames  : 23589888
+  Total Frame Loss : 22018221
+
+  Frame Loss Rate  : 48.28 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 80.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  40540541
+   Total Frames   =  40540541
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23594747
+   Total Frames   =  23594747
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 40540541
+  Rx Total Frames  : 23594747
+  Total Frame Loss : 16945794
+
+  Frame Loss Rate  : 41.80 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 70.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  35472973
+   Total Frames   =  35472973
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23538033
+   Total Frames   =  23538033
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 35472973
+  Rx Total Frames  : 23538033
+  Total Frame Loss : 11934940
+
+  Frame Loss Rate  : 33.65 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 60.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  30405406
+   Total Frames   =  30405406
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23562861
+   Total Frames   =  23562861
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 30405406
+  Rx Total Frames  : 23562861
+  Total Frame Loss : 6842545
+
+  Frame Loss Rate  : 22.50 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 50.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  25337838
+   Total Frames   =  25337838
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23597929
+   Total Frames   =  23597929
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 25337838
+  Rx Total Frames  : 23597929
+  Total Frame Loss : 1739909
+
+  Frame Loss Rate  : 6.87 %
+********************************
+--------------------------------
+==== Frame Size      : 128
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 40.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  20270271
+   Total Frames   =  20270271
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  20270271
+   Total Frames   =  20270271
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 20270271
+  Rx Total Frames  : 20270271
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 256
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  27173913
+   Total Frames   =  27173913
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23592692
+   Total Frames   =  23592692
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 27173913
+  Rx Total Frames  : 23592692
+  Total Frame Loss : 3581221
+
+  Frame Loss Rate  : 13.18 %
+********************************
+--------------------------------
+==== Frame Size      : 256
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 90.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  24456522
+   Total Frames   =  24456522
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  23541518
+   Total Frames   =  23541518
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 24456522
+  Rx Total Frames  : 23541518
+  Total Frame Loss : 915004
+
+  Frame Loss Rate  : 3.74 %
+********************************
+--------------------------------
+==== Frame Size      : 256
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 80.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  21739131
+   Total Frames   =  21739131
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  21739131
+   Total Frames   =  21739131
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 21739131
+  Rx Total Frames  : 21739131
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 512
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  14097745
+   Total Frames   =  14097745
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  14097745
+   Total Frames   =  14097745
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 14097745
+  Rx Total Frames  : 14097745
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 1024
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  7183908
+   Total Frames   =  7183908
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  7183908
+   Total Frames   =  7183908
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 7183908
+  Rx Total Frames  : 7183908
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 1280
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+..............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  5769231
+   Total Frames   =  5769231
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  5769231
+   Total Frames   =  5769231
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 5769231
+  Rx Total Frames  : 5769231
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+--------------------------------
+==== Frame Size      : 1518
+==== Trial No.       : 01 / 01
+Duration             : 60 s
+Tx Rate              : 100.00 %
+--------------------------------
+Tx Setting(ARP)
+Tx Setting(3 s)
+Transmit Test Frame START
+.............................................................
+Transmitted Test Frame END
+--------------------------------
+Tx Frames
+   Unit1:3:1      =  4876463
+   Total Frames   =  4876463
+--------------------------------
+Rx Frames
+   Unit1:3:4      =  4876463
+   Total Frames   =  4876463
+--------------------------------
+********************************
+Result
+  Tx Total Frames  : 4876463
+  Rx Total Frames  : 4876463
+  Total Frame Loss : 0
+
+  Frame Loss Rate  : 0.00 %
+********************************
+==== Frame loss rate Test End (at 02:05:43 Nov 13, 2022)
